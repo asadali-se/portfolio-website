@@ -25,7 +25,7 @@ export default function Home() {
           </Link>
           <Link
             href="/blog"
-            className="border border-border text-foreground px-6 py-3 rounded-lg hover:border-accent hover:text-accent transition-colors"
+            className="border border-accent/40 text-accent px-6 py-3 rounded-lg hover:bg-accent hover:text-black transition-colors"
           >
             Read Blog
           </Link>
