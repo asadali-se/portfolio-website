@@ -1,8 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Personal Portfolio Website
 
-## Getting Started
+A modern, fast, and responsive portfolio website built with Next.js. This project showcases projects, skills, and personal branding with a clean UI and optimized performance.
 
-First, run the development server:
+---
+
+## 🚀 Live Preview
+
+👉 **View Portfolio:**  
+🔗 https://portfolio-website-tawny-ten-57.vercel.app/
+
+---
+
+## 📌 Features
+
+- ⚡ Built with Next.js (App Router)
+- 🎨 Clean and modern UI design
+- 📱 Fully responsive (mobile, tablet, desktop)
+- 🚀 Optimized performance with automatic font loading
+- 🧩 Component-based architecture
+- 🌐 Deployed on Vercel
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js
+- **Language:** TypeScript / JavaScript
+- **Styling:** CSS / Tailwind (if used)
+- **Fonts:** Geist (via next/font)
+- **Deployment:** Vercel
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+### 3. Run the development server
 
 ```bash
 npm run dev
@@ -14,23 +65,88 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 4. Open in browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Visit: http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📁 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+app/
+ ├── page.tsx        # Main homepage
+ ├── layout.tsx      # Root layout
+components/          # Reusable UI components
+public/              # Static assets
+styles/              # Global styles
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ✏️ Customization
 
-## Deploy on Vercel
+You can start editing your portfolio by modifying:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+app/page.tsx
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Changes will automatically reflect in the browser during development.
+
+---
+
+## 📚 Learn More
+
+To learn more about Next.js:
+
+- https://nextjs.org/docs
+- https://nextjs.org/learn
+- https://github.com/vercel/next.js
+
+---
+
+## 🚀 Deployment
+
+This project is deployed on **Vercel**.
+
+To deploy your own version:
+
+1. Push your code to GitHub  
+2. Go to https://vercel.com  
+3. Import your repository  
+4. Click **Deploy**
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+- Follow clean and readable code practices
+- Keep components modular
+- Write meaningful commit messages
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 📞 Contact
+
+- Email: your-email@example.com  
+- GitHub: https://github.com/your-username  
+
+---
+
+## 🙌 Acknowledgments
+
+- Next.js Team  
+- Vercel Platform  
+
+---
+
+**Built with ❤️ using Next.js**
